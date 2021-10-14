@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 94, 141);
+}
+
+.box {
+  display: flex;
+  margin: auto;
+  width: 1000px;
+  justify-content: space-between;
+
+  .rectangle {
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 20px 20px 0 gray;
+
+    .shapes {
+      font-size: 20px;
+    }
+
+    .recHeight {
+      width: 160px;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid blueviolet;
+      margin-top: 5px;
+    }
+
+    .recWidth {
+      width: 160px;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid blueviolet;
+      margin-top: 5px;
+    }
+
+    select {
+      width: 160px;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid blueviolet;
+      margin-top: 5px;
+
+    }
+
+    button {
+      width: 100px;
+      height: 30px;
+      border-radius: 15px;
+      border: 2px solid gray;
+
+      margin-top: 5px;
+    }
+
+    .resultOfRect {
+      margin: auto;
+      margin-top: 5px;
+      width: fit-content;
+      font-weight: bold;
+      color: white;
+      padding: 2px;
+      border-radius: 5px;
+      background-color: rgb(15, 123, 160);
+    }
+  }
+
+  .triangle {
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 20px 20px 0 gray;
+
+    .shapes {
+      font-size: 20px;
+    }
+
+    .triHeight {
+      width: 160px;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid blueviolet;
+      margin-top: 5px;
+    }
+
+    .triWidth {
+      width: 160px;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid blueviolet;
+      margin-top: 5px;
+    }
+
+    select {
+      width: 160px;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid blueviolet;
+      margin-top: 5px;
+
+    }
+
+    button {
+      width: 130px;
+      margin-top: 5px;
+    }
+
+    .resultOfTri {
+      margin: auto;
+      margin-top: 5px;
+      width: fit-content;
+      font-weight: bold;
+      color: white;
+      padding: 2px;
+      border-radius: 5px;
+      background-color: rgb(15, 123, 160);
+    }
+  }
+
+  .circle {
+    text-align: center;
+    background-color: lightseagreen;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    box-shadow: 10px 20px 0 gray;
+
+    .shapes {
+      font-size: 20px;
+    }
+
+    .radius {
+      width: 160px;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid blueviolet;
+      margin-top: 5px;
+    }
+
+    select {
+      width: 100%;
+      height: 30px;
+      border-radius: 10px;
+      border: 2px solid blueviolet;
+      margin-top: 5px;
+
+    }
+
+    button {
+      width: 130px;
+      margin-top: 5px;
+    }
+
+    .resultOfCir {
+      margin: auto;
+      margin-top: 5px;
+      width: fit-content;
+      font-weight: bold;
+      color: white;
+      padding: 2px;
+      border-radius: 5px;
+      background-color: rgb(15, 123, 160);
+    }
+  }
+}

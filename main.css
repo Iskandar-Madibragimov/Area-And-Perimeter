@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #0c5e8d;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 1000px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box .rectangle {
+  text-align: center;
+  background-color: lightseagreen;
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 20px 20px 0 gray;
+          box-shadow: 20px 20px 0 gray;
+}
+
+.box .rectangle .shapes {
+  font-size: 20px;
+}
+
+.box .rectangle .recHeight {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  margin-top: 5px;
+}
+
+.box .rectangle .recWidth {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  margin-top: 5px;
+}
+
+.box .rectangle select {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  margin-top: 5px;
+}
+
+.box .rectangle button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid gray;
+  margin-top: 5px;
+}
+
+.box .rectangle .resultOfRect {
+  margin: auto;
+  margin-top: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #0f7ba0;
+}
+
+.box .triangle {
+  text-align: center;
+  background-color: lightseagreen;
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 20px 20px 0 gray;
+          box-shadow: 20px 20px 0 gray;
+}
+
+.box .triangle .shapes {
+  font-size: 20px;
+}
+
+.box .triangle .triHeight {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  margin-top: 5px;
+}
+
+.box .triangle .triWidth {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  margin-top: 5px;
+}
+
+.box .triangle select {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  margin-top: 5px;
+}
+
+.box .triangle button {
+  width: 130px;
+  margin-top: 5px;
+}
+
+.box .triangle .resultOfTri {
+  margin: auto;
+  margin-top: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #0f7ba0;
+}
+
+.box .circle {
+  text-align: center;
+  background-color: lightseagreen;
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 10px 20px 0 gray;
+          box-shadow: 10px 20px 0 gray;
+}
+
+.box .circle .shapes {
+  font-size: 20px;
+}
+
+.box .circle .radius {
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  margin-top: 5px;
+}
+
+.box .circle select {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid blueviolet;
+  margin-top: 5px;
+}
+
+.box .circle button {
+  width: 130px;
+  margin-top: 5px;
+}
+
+.box .circle .resultOfCir {
+  margin: auto;
+  margin-top: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+  color: white;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #0f7ba0;
+}
+/*# sourceMappingURL=main.css.map */
